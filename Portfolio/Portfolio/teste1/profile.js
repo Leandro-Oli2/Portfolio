@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-document.getElementById("open-profile").onclick = function() {
-    document.getElementById("mini-profile").style.display = "block";
-}
-document.getElementById("close-profile").onclick = function() {
-    document.getElementById("mini-profile").style.display = "none";
-}
+// document.getElementById("open-profile").onclick = function() {
+//     document.getElementById("mini-profile").style.display = "block";
+// }
+// document.getElementById("close-profile").onclick = function() {
+//     document.getElementById("mini-profile").style.display = "none";
+// }
 
 
 function toggleMenu() {
