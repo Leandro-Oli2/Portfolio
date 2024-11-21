@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buraco Negro no Topo com Estrelas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="profile.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#" id="open-profile">
+                <img src="video/WhatsApp Image 2024-11-20 at 22.55.53.jpeg" alt="Minha Foto" class="profile-photo">
+                Leandro Candido
+            </a>
+        </div>
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos1">Projetos</a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <a href="https://github.com/Leandro-Oli2" target="_blank" class="social-icon">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/leandro-oliveira29/" target="_blank" class="social-icon">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/leandro_oli29/" target="_blank" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+         <div class="hamburger" onclick="toggleMenu()">
+            <img src="icons/hamburger (1).png" alt="Menu">
+        </div>
+    </nav>
+
+    <div id="mini-profile" class="mini-profile">
+        <div class="mini-profile-content">
+            <span class="close" id="close-profile">&times;</span>
+            <div class="profile-photo-container">
+                <img src="video/WhatsApp Image 2024-11-20 at 23.52.18.jpeg" alt="Minha Foto" class="profile-photo-mini">
+            </div>
+            <h3>Leandro Candido</h3>
+            <p>Formação: Cursando o 4º semestre de Análise e Desenvolvimento de Sistemas.</p>
+            <p>Idade: 19 anos.</p>
+            <p>Cargo: Jovem Aprendiz na área de Desenvolvimento Web.</p>
+            <p>Experiência: Aprendendo e contribuindo no desenvolvimento de aplicações e soluções web.</p>
+        </div>
+    </div>
+
+    <div id="stars"></div>
+    <video autoplay muted loop>
+        <source src="video/blackhole.webm" type="video/webm">
+    </video>
+    <div class="space-scene">
+        <img src="video/ass.png" alt="Astronauta" class="astronaut">
+        <img src="video/planet-removebg-preview.png" alt="Planeta" class="planeta">
+    </div>
+
+    <div id="sobre-mim" class="intro">
+        <div id="sla" class="welcome-box">
+            <p>Welcome to my Portfolio</p>
+        </div>
+        <h2>Olá, eu sou o Leandro</h2>
+        <p>Estudante de Análise e Desenvolvimento de Sistemas na UCDB e jovem aprendiz na Digix, onde busco aprimorar minhas habilidades em desenvolvimento full stack. Com uma paixão por tecnologia e inovação, estou sempre em busca de desafios que me permitam evoluir como desenvolvedor e expandir meu conhecimento na área de software.</p>
+    </div>
+
+    <section id="skills" class="skills">
+        <h2>Minhas Skills</h2>
+            <p>Com um sólido conjunto de habilidades em desenvolvimento de software, estou sempre buscando ampliar meus conhecimentos e aplicar as tecnologias mais atuais em projetos práticos.</p>
+        <div class="skills-container">
+            <div class="skills-list">
+                <div class="skill-item"><img src="icons/html-5.png" alt="HTML5"></div>
+                <div class="skill-item"><img src="icons/css-3.png" alt="CSS3"></div>
+                <div class="skill-item"><img src="icons/js.png" alt="JavaScript"></div>
+                <div class="skill-item"><img src="icons/python.png" alt="Python"></div>
+                <div class="skill-item"><img src="icons/java.png" alt="Java"></div>
+                <div class="skill-item"><img src="icons/php.png" alt="PHP"></div>
+                <div class="skill-item"><img src="icons/mysql (1).png" alt="MYSQL"></div>
+                <div class="skill-item"><img src="icons/postgre.png" alt="PostgreeSQL"></div>
+                <div class="skill-item"><img src="icons/csharp.png" alt="C#"></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="projetos" class="skills-reverse">
+        <div class="skills-container">
+            <div class="skills-list-reverse">
+                <div class="skill-item"><img src="icons/html-5.png" alt="HTML5"></div>
+                <div class="skill-item"><img src="icons/css-3.png" alt="CSS3"></div>
+                <div class="skill-item"><img src="icons/js.png" alt="JavaScript"></div>
+                <div class="skill-item"><img src="icons/python.png" alt="Python"></div>
+                <div class="skill-item"><img src="icons/java.png" alt="Java"></div>
+                <div class="skill-item"><img src="icons/php.png" alt="PHP"></div>
+                <div class="skill-item"><img src="icons/mysql (1).png" alt="MYSQL"></div>
+                <div class="skill-item"><img src="icons/postgre.png" alt="PostgreeSQL"></div>
+                <div class="skill-item"><img src="icons/csharp.png" alt="C#"></div>
+            </div>
+        </div>
+    </div>
+
+    <section id="projetos1" class="projetos">
+        <h2 id="ss" class="title">Meus Projetos</h2>
+        <p>Explore alguns dos meus projetos de desenvolvimento. Cada um foi criado com uma abordagem prática e inovadora, utilizando as tecnologias mais recentes para solucionar problemas e criar experiências incríveis.</p>
+        <div class="projetos-container">
+            <div class="projeto-item">
+                <div class="meteoro"></div>
+                <img src="icons/Captura de tela 2024-11-15 230854.png" alt="Projeto 1">
+                <div class="projeto-info">
+                    <h3>Tweeb</h3>
+                    <p>Tweeb é uma plataforma de e-commerce focada em produtos de informática.</p>
+                    <a href="#" class="btn-projeto">Ver mais</a>
+                </div>
+            </div>
+            <div class="projeto-item">
+                <div class="meteoro"></div>
+                <img src="icons/Captura de tela 2024-11-15 230854.png" alt="Projeto 2">
+                <div class="projeto-info">
+                    <h3>Landing Page</h3>
+                    <p>Design visualmente atraente, a página foca em apresentar o cardápio e promoções especiais.</p>
+                    <a href="#" class="btn-projeto">Ver mais</a>
+                </div>
+            </div>
+            <div class="projeto-item">
+                <div class="meteoro"></div>
+                <img src="icons/Captura de tela 2024-11-15 230854.png" alt="Projeto 3">
+                <div class="projeto-info">
+                    <h3>Portfolio</h3>
+                    <p>O Portfolio Espacial é um site interativo desenvolvido com HTML, CSS e JavaScript.</p>
+                    <a href="#" class="btn-projeto">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Leandro-Oli2" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leandro-oliveira29/" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/leandro_oli29/" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2024 Leandro Candido.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
